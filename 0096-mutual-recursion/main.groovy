@@ -1,0 +1,11 @@
+def isEven(n) {
+    if (n == 0) return true
+    return isOdd(n - 1)
+}
+
+def isOdd(n) {
+    if (n == 0) return false
+    return isEven(n - 1)
+}
+
+[4, 3].each { println(isEven(it) ? "even" : "odd") }
