@@ -520,6 +520,9 @@ Incremental lessons learning Groovy.
 - [0447-batch-insert](27-database-sqlite/0447-batch-insert/) — insert many rows efficiently in one transaction
 - [0448-upsert](27-database-sqlite/0448-upsert/) — insert or update on primary-key conflict
 
+### Template Engines
+- [0477-variable-substitution](31-template-engines/0477-variable-substitution/) — render a template with a variable
+
 ## How to run
 
 Lessons are grouped into topic folders (e.g. `05-strings/0072-palindrome-check/`).
